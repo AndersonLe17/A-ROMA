@@ -24,3 +24,25 @@ window.addEventListener('DOMContentLoaded', event => {
     }
 
 });
+
+$(".owl-carousel").owlCarousel({
+    autoplay: true,
+    autoplayhoverpause: true,
+    responsiveClass: true,
+    loop: true,
+    responsive:{
+        0:{
+            items:1,
+        },
+        530:{
+            items:2,
+        },
+        750:{
+            items:4,
+        },
+        1365:{
+            items:6,
+        }
+    }
+});
+
