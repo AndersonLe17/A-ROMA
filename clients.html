@@ -101,99 +101,12 @@
         <div id="layoutSidenav_content">
             <main>
                 <div class="container-fluid px-4">
-                    <h1 class="mt-4">Productos</h1>
+                    <h1 class="mt-4">Clientes</h1>
                     <ol class="breadcrumb mb-4">
                         <li class="breadcrumb-item"><a class="text-decoration-none text-secondary fw-bold"
                                 href="index.html">Dashboard</a></li>
-                        <li class="breadcrumb-item active">Ver Productos</li>
+                        <li class="breadcrumb-item active">Registro de Clientes</li>
                     </ol>
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <!-- Agregar listado de producto mas vendido por categoria -->
-                            <div class="container-fluid">
-                                <div class="owl-carousel owl-theme">
-
-                                    <div class="item-carousel mx-auto">
-                                        <div class="card">
-                                            <img src="assets/img/Logo Caffe.png" class="card-img-top img-carousel">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Producto 1</h5>
-                                                <p class="card-text">N° de Ventas: ##(MES)</p>
-                                                <a href="#" class="btn btn-filter vstack">Categoria 1</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="item-carousel mx-auto">
-                                        <div class="card">
-                                            <img src="assets/img/Logo Caffe.png" class="card-img-top img-carousel">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Producto 2</h5>
-                                                <p class="card-text">N° de Ventas: ##(MES)</p>
-                                                <a href="#" class="btn btn-filter vstack">Categoria 2</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="item-carousel mx-auto">
-                                        <div class="card">
-                                            <img src="assets/img/Logo Caffe.png" class="card-img-top img-carousel">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Producto 3</h5>
-                                                <p class="card-text">N° de Ventas: ##(MES)</p>
-                                                <a href="#" class="btn btn-filter vstack">Categoria 3</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="item-carousel mx-auto">
-                                        <div class="card">
-                                            <img src="assets/img/Logo Caffe.png" class="card-img-top img-carousel">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Producto 4</h5>
-                                                <p class="card-text">N° de Ventas: ##(MES)</p>
-                                                <a href="#" class="btn btn-filter vstack">Categoria 4</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="item-carousel mx-auto">
-                                        <div class="card">
-                                            <img src="assets/img/Logo Caffe.png" class="card-img-top img-carousel">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Producto 5</h5>
-                                                <p class="card-text">N° de Ventas: ##(MES)</p>
-                                                <a href="#" class="btn btn-filter vstack">Categoria 5</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="item-carousel mx-auto">
-                                        <div class="card">
-                                            <img src="assets/img/Logo Caffe.png" class="card-img-top img-carousel">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Producto 6</h5>
-                                                <p class="card-text">N° de Ventas: ##(MES)</p>
-                                                <a href="#" class="btn btn-filter vstack">Categoria 6</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="item-carousel mx-auto">
-                                        <div class="card">
-                                            <img src="assets/img/Logo Caffe.png" class="card-img-top img-carousel">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Producto 7</h5>
-                                                <p class="card-text">N° de Ventas: ##(MES)</p>
-                                                <a href="#" class="btn btn-filter vstack">Categoria 7</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="mb-4 row justify-content-between">
                         <div class="col-auto text-start">
@@ -201,48 +114,49 @@
                                 <i class="fa-regular fa-plus"></i> Agregar
                             </button>
                         </div>
-                        <div class="col text-end">
-                            <button type="button" class="btn btn-outline-show text-min text-sm-reg">
-                                <i class="fa-regular fa-filter-slash"></i> Mostrar todo
-                            </button>
-                        </div>
                     </div>
 
                     <div class="card mb-4">
                         <div class="card-header">
                             <i class="fas fa-table me-1"></i>
-                            Registro de Productos
+                            Registro de Clientes
                         </div>
                         <div class="card-body">
                             <table class="table table-bordered table-hover" id="datatablesSimple">
                                 <thead>
                                     <tr>
                                         <th>Id</th>
-                                        <th>Imagen</th>
-                                        <th>Nombre</th>
-                                        <th>Categoria</th>
-                                        <th>Estado</th>
+                                        <th>Nombres</th>
+                                        <th>Apellidos</th>
+                                        <th>Documento</th>
+                                        <th>N° Documento</th>
+                                        <th>Correo</th>
+                                        <th>Celular</th>
                                         <th>Acciones</th>
                                     </tr>
                                 </thead>
                                 <tfoot>
                                     <tr>
                                         <th>Id</th>
-                                        <th>Imagen</th>
-                                        <th>Nombre</th>
-                                        <th>Categoria</th>
-                                        <th>Estado</th>
+                                        <th>Nombres</th>
+                                        <th>Apellidos</th>
+                                        <th>Documento</th>
+                                        <th>N° Documento</th>
+                                        <th>Correo</th>
+                                        <th>Celular</th>
                                         <th>Acciones</th>
                                     </tr>
                                 </tfoot>
                                 <tbody>
+
                                     <tr>
-                                        <td class="align-middle">1001</td>
-                                        <td class="align-middle"><img class="img-fluid img-product"
-                                                src="assets/img/Logo Caffe.png"></td>
-                                        <td class="align-middle">Producto Ejemplo</td>
-                                        <td class="align-middle">Categoria Ejemplo</td>
-                                        <td class="align-middle"><span class="badge bg-success text-white">Activo</span>
+                                        <td class="align-middle">10001</td>
+                                        <td class="align-middle">Primer y Segundo Nombre</td>
+                                        <td class="align-middle">Apellido Paterno y Materno</td>
+                                        <td class="align-middle">DNI o CE</td>
+                                        <td class="align-middle">########</td>
+                                        <td class="align-middle">ejemplo@prueba.com</td>
+                                        <td class="align-middle">999999999</td>
                                         </td>
                                         <td class="align-middle">
                                             <a href="#" class="btn btn-outline-info text-min">
